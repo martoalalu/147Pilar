@@ -14271,7 +14271,7 @@ nv.models.stackedAreaChart = function() {
         , noData = null
         , dispatch = d3.dispatch('stateChange', 'changeState','renderEnd')
         , controlWidth = 250
-        , controlOptions = ['Stacked','Stream','Expanded']
+        , controlOptions = ['Stacked','asd','Expanded']
         , controlLabels = {}
         , duration = 250
         ;
@@ -14442,7 +14442,7 @@ nv.models.stackedAreaChart = function() {
                         style: 'stream'
                     },
                     {
-                        key: controlLabels.expanded || 'Expanded',
+                        key: controlLabels.expanded || 'Porcentaje',
                         metaKey: 'Expanded',
                         disabled: stacked.style() != 'expand',
                         style: 'expand'
